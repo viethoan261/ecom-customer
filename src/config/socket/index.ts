@@ -1,5 +1,5 @@
 export const SocketConfig = {
-  wsUrl: 'wss://localhost:44358',
+  wsUrl: 'wss://https://ecomme.up.railway.app',
   webSocketState: {
     CONNECTING: 0,
     OPEN: 1,
