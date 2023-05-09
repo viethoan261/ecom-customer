@@ -1,0 +1,24 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.outOfStock {
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' preserveAspectRatio='none' viewBox='0 0 100 100'><line x1='0' y1='0' x2='100' y2='100' stroke='black' vector-effect='non-scaling-stroke'/><line x1='0' y1='100' x2='100' y2='0' stroke='black' vector-effect='non-scaling-stroke'/></svg>");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%, auto;
+  opacity: 0.3;
+  background-color: gainsboro;
+}
+
+.mantine-Select-input {
+  padding: 5px;
+}
+
+.mantine-NumberInput-error {
+  width: 300%;
+
+  @media screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
