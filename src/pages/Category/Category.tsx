@@ -103,13 +103,13 @@ const Category = () => {
             ))}
           </Grid>
         ) : (
-          <Center mt={50}>
+         null
+        )
+      ) :  <Center mt={50}>
             <Text weight={'bold'} size={'lg'}>
               Không có sản phẩm nào
             </Text>
-          </Center>
-        )
-      ) : null}
+          </Center>}
     </>
   );
 };
